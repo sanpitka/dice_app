@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'DiceApp',
       theme: ThemeData( scaffoldBackgroundColor: const Color.fromARGB(255, 241, 208, 108),),
-      home: const Dice(title: 'DiceApp'),
+      home: const Dice(),
     );
   }
 }
