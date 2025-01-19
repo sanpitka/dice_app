@@ -1,6 +1,8 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
+const Color buttonColor = Color.fromARGB(255, 241, 229, 190);
+
 class Dice extends StatefulWidget {
   const Dice({super.key});
 
@@ -41,7 +43,7 @@ class _DiceState extends State<Dice> {
             padding: const EdgeInsets.symmetric(vertical: 48.0),
             child: Container(
               decoration: BoxDecoration(
-              color: const Color.fromARGB(255, 241, 229, 190),
+              color: buttonColor,
               borderRadius: BorderRadius.circular(30),
               ),
               padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
@@ -93,7 +95,7 @@ class _DiceState extends State<Dice> {
             child: ElevatedButton(
               onPressed: _diceroll,
               style: ElevatedButton.styleFrom(
-              backgroundColor: const Color.fromARGB(255, 241, 229, 190), // Button background color
+              backgroundColor:buttonColor,
               foregroundColor: const Color.fromARGB(255, 107, 58, 18), // Text color
               minimumSize: const Size(100, 50)
               ),
