@@ -87,7 +87,7 @@ class _DiceState extends State<Dice> {
     if (!_isLocked.contains(true)) return const SizedBox.shrink();
 
     return Positioned(
-      top: 100,
+      top: 110,
       left: 0,
       right: 0,
       child: Center(
